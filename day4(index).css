@@ -1,0 +1,108 @@
+/* there is a bydefault margin or gap we see in our web page so to remove it we use star(*){margin:0px;padding:0px;then we can change it} */
+
+*
+{
+    margin:0px;
+    padding:0px;
+}
+
+/* percentage(instead of px its good to use percentage.px is fixed.if we minmize thescreen px is not minimized.)body isa parent.parent product is a child of body.child product is a child of parent product.body is 100 percent width.i want exactly half ofbody for parent-product so iuse percentage */
+
+/* .parent-product
+{
+  height:300px;
+  width:200px;
+  background-color: red;
+}
+
+.child-product
+{
+  height:150px;
+  width:100px;
+  background-color:yellow;
+} */
+
+/* .parent-product
+{
+  height:300px;
+  width:100%;
+  background-color: red;
+}
+
+.child-product
+{
+  height:200px;
+  width:50%;
+  background-color:yellow;
+}   parent product is 100%ofwidththen childis exactly half of parentproduct width..
+   height is infinite so normaly we use height in px only.we use percentage for width.
+   if i give width 150% it will outgrow
+   
+   we can remove the height  of parent also it automatically increases or give height:auto;*/
+
+/* .parent-product
+{
+  /* ifi remove the height in parent it automatically increases and adjusted to child height..we dont know how much child will come */
+  /* width:100%;
+  background-color:orangered;
+} */
+
+/* .child-product1 */
+/* now there is 2 child */
+/* {
+  height:200px;
+  width:100%;
+  background-color:orange;
+} */
+
+/* .child-product2 */
+/* now there is 2 child */
+/* {
+  height:200px;
+  width:100%;
+  background-color:white;
+} */
+/* 
+.child-product3 */
+/* now there is 2 child */
+/* {
+  height:200px;
+  width:100%;
+  background-color:green;
+} */
+/* .csp */
+/* now there is 2 child */
+/* {
+  height:100px;
+  width:100%;
+  background-color:blue;
+} */ 
+
+/* .parent
+{
+  width:70%;
+  height:auto;
+  background-color: blueviolet;
+  padding: 30px;
+  
+} */
+
+/* .child
+{
+  width:30%;
+  background-color: brown;
+  height:200px;
+  margin-bottom: 20px; */
+  /* margin means it create a gap between them */
+  /* border:25px solid black;
+} */
+.dummy-txt
+{
+  background-color: greenyellow;
+  padding: 10px;
+  margin: 20px;
+  display: inline-block;
+  /* it behaves as inline goes side by side till dislay ends and acts as bloch also we can give height and width to it */
+  width:500px;
+  
+}

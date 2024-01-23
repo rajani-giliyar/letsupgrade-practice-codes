@@ -1,0 +1,60 @@
+css-cascading style sheet
+ its written like this
+               property:value;
+   for exmple
+               color:black;
+               background-color:red;
+               height:200px;
+
+ how to tell css where to apply in html
+    there are 3 ways
+                 
+                inline css way(directly write insidethe tag)
+                internal css way
+                external css way----it  is same like internal css.we use same code everthing but diffence is we write in a different file.we creat a new file .and in head we link it to css
+                 example
+                 <head>
+                 <title> web page</title>
+                 <link rel="icon" href="./.....">
+                 <link rel="stylesheet" href="./stylesheet">
+                 </head>
+
+**)))) how many properties are there in css 
+
+
+types of element----inline  - block  - inline-block
+day 4)1)percentage(instead of px its good to use percentage.px is fixed.if we minmize thescreen px is not minimized.)
+       2)inline
+       <span></span> is a example of inline element.its go side by side.it does nottake height and width
+       3)block(div is block element bcz it goes down(one by one boxes are go down ..one by one)div is block element)
+
+
+
+       in interview ask what is the difference between inline and block
+
+
+       flexboxing---it make allignment,arrengment.
+       it is a technique it make allign or arrenge element in a better way.during flexboxing parent element is must and should without it we vant
+
+
+
+       when flex-direction is row then x is main axis and y is cross axis 
+       when flex-direction is column then y is main axis and x is cross axis|
+                                                                            |
+                                                                            |
+        In flexboxing there are 2 properties                           <----|
+          1)justify-content--it always works for MAIN axis
+          if our direction is row then it works for x axis bcs its a main axis
+          simillarly for column
+justify-content:flex-start;
+justify-content:flex-center;
+justify-content:flex-end;
+justify-content:space-between;(equal gaps b/w element)
+justify-content:space-around;
+justify-content:space-evenly;(equal space b/w and around)
+align-item:flex-center;(it come center of y axis)
+
+
+
+          2)align-item it work for cross axis
+          if our direction is row ,y is our cross axis

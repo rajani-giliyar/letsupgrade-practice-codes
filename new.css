@@ -1,0 +1,39 @@
+/* *
+{
+    margin: 0px;
+    padding:0px;
+}
+.hello
+{
+   height:700px;
+   width: 70%;
+   background-color:rebeccapurple;
+   display: inline-block;
+}
+.h1
+{
+   height:700px;
+   width: 70%;
+   background-color: blue;
+   display: inline-block;
+}
+
+.h2
+{
+   height:700px;
+   width: 70%;
+   background-color:green;
+   display: inline-block;
+} */
+
+body 
+{
+    background-color: aquamarine;
+}
+
+.parent
+{
+   background-color: red;
+   height: 200px;
+   width: 100px;
+}

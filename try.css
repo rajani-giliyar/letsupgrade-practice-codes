@@ -1,0 +1,21 @@
+
+
+.element {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+   
+  }
+
+  .elements{
+    width: 200px;
+    height: 200px;
+    background-color:aqua;
+    box-shadow: 5px 5px blue;
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  

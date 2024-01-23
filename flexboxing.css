@@ -1,0 +1,91 @@
+*
+{
+    margin:0px;
+    padding: 0px;
+}
+.parent
+{
+    height:800px;
+    width:100%;
+    background-color: gray;
+    /* if i give display:flex;then parents direct child is automatically become flex boxing.not its indirect child only direct chid ..by default flex direction is row meand x-axis so itgo side by side.
+    we use flex-direction:row;(we want in row no need to use this by default flex is in row only.we want one by one at that time we use flex-direction:column;
+    row-reverse;
+    column-reverse*/
+    display:flex;
+    /* justify-content: space-between; */
+    /* justify-content:space-around; */
+    /* justify-content:space-evenly;
+    align-items: center; */
+    flex-direction: row;
+    /* justify-content:space-evenly; */
+    align-items:flex-start;
+    flex-wrap: wrap;
+    /* flex wrap will not adjust the elementit come down.but it take big gap so use align-content:start;instead of justify content to give gap use column-gap and row gap */
+    align-content:start;
+    column-gap: 20px;
+    row-gap: 20px;
+    
+    /* flex-direction:column-reverse; */
+}
+.child
+{
+    height:150px;
+    width:20%;
+}
+.first-child
+{
+    background-color:red;
+    /* display:inline-block; */
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box
+{
+    height: 40px;
+    width:40px;
+    background-color: aqua;
+   
+}
+
+.second-child
+{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:flex-end;
+    /* display:inline-block; */
+}
+.box1
+{
+    height: 40px;
+    width:40px;
+    background-color:antiquewhite;
+}
+.third-child
+{
+    background-color:green;
+    /* display:inline-block; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:flex-start;
+}
+.box2
+{
+    height: 40px;
+    width:40px;
+    background-color:aliceblue;
+}
+.fourth-child
+{
+    background-color:brown;
+    /* display:inline-block;it is also same like direction:flex;but put it in all child */
+}
+
+
+
+
+

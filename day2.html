@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>forms</title>
+</head>
+<body>
+    <form>
+
+        <input type="color">
+        <!-- readonly   learn more about it -->
+        
+       <!-- <input type="text" inside input type="text is not mandatory barilebek anth illabardru onde barila andru onde.text means anything its may be number r alphabet
+        placeholder is in water mark instead of it we use value it write what we type in value,its fixed"> -->
+       
+       
+        <input type="text" placeholder="Enter Name" required>   <br>  <br> 
+
+        <input type="email" placeholder="enter e-mail" required>  <br><br>
+
+        <input type="password" placeholder="enter password" required maxlength="8" minlength="4">  <br><br>
+                
+                <!-- it show like a password with eye symbol bcs type is password -->
+
+        <input type="date">  <br><br>
+         
+         Male
+
+         <input type="radio"  name="gender" > <br><br>
+<!--  think required is not working ,when we write by default filled we use checked
+name="gender add to both at that time it select only one either male or female.no need use checked"-->
+         Female
+
+         <input type="radio" checked   name="gender"> <br><br>
+
+        i agrre to the above condition
+        <input type="checkbox"> <br><br>
+
+        <textarea cols="40" rows="5" placeholder="address"></textarea> <br><br>
+        
+        <!-- cols rows are not that much im i think without using those we can adjust it
+        instead of input we use textarea just we need bigger box thts y we usee it -->
+
+
+        <!-- <select>
+            <option>gender</option>
+            <option>male</option>
+            <option>female</option>
+        </select>
+         we can use t for gender also.dropdown button-->
+
+         <select>
+            <option>city</option>
+            <option>kota</option>
+            <option>kundapura</option>
+        </select><br><br>
+               <!-- to create dropdown button we ue it -->
+
+        <input type="number" min="10" max="30" placeholder="enter some number"><br><br>
+          <!-- min and max ony use when type  is number.and it take only numbers nottext  -->
+               
+         <input type="text" required pattern="^[6-9]\d{9}$" placeholder="enter contact number">  
+               <!-- the field which only take numbers  mobile number
+            different country has different numbers -->
+       
+                     <!-- <br><br> if we use 2 br tag then it give space between after break -->
+       
+       
+        <button>Register</button>  
+      
+                      <!-- (its used to submit the data) -->
+        <button type="reset">clear form</button>
+                      <!-- sometime we write wrong and want to clear the data -->
+        <button type="button">useless</button>
+                       <!-- its uselessno use at all -->
+    
+</body>
+</html>

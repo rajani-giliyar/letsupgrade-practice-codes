@@ -1,0 +1,31 @@
+
+/* if i wanted to apply css for whole web page at that time use tag(body) as a selectot */
+      body
+      {
+       background-color:skyblue; 
+      }
+      pre
+      {
+        color:brown;
+        font-family: segoe ui;
+      }
+
+      .para2
+
+      {
+        color:bisque;
+
+      }
+
+      p
+      {
+        font-size: 30px;
+      }
+
+      #one
+      /*avoid using id in css because it cannot berepeated but class and tag can be repeated.but id not  */
+      {
+        color: gray;
+      }
+    
+   

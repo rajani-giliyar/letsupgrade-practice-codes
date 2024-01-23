@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*
+{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.header
+{
+    width: 100%;
+    height:auto;
+    background-color:#ededed;
+    display:flex;
+    padding-left:5%;
+    padding-right:5%;
+    justify-content:space-between;
+    /*  EXTRA GAP-BUT I DONT WANT THAT EXTRA IN MY WEBPAGE AS SCROLLING BAR SO WE USE BOX SIZING.WE USE IT IN *THEN IT INCLUDES FOR ALL   we want 5px gap in both left and right we use padding.already width is 100%so it shows scroll button to remove it we use box-sizing so its adjusted to the width of 100%or screen width */
+    /* box-sizing: border-box; */
+}
+.logo
+{
+    height:70px;
+    width:30%;
+    /* background-color: blue; */
+    display: flex;
+    /* justify-content:center; */
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+    
+.nav
+{
+    height:70px;
+    width:50%;
+    /* background-color:brown; */
+    /* display: flex; */
+    
+}
+.nav-link
+{
+   width:100%;
+   height:70px;
+   display:flex;
+   /* flex-direction: row; */
+   justify-content:space-between;
+   /* to remove the dots list-style-type */
+   list-style-type: none;
+   /* background-color: chartreuse; */
+   align-items: center;
+   font-family:'Montserrat', sans-serif;
+   font-size: 20px;
+}
+
+/* .hii
+{
+    background-color: coral;
+} */
+
+/* bannercss */
+ .banner
+ {
+    width:100%;
+    height:500px;
+    background-color:#ededed;
+    padding-left:5% ;
+    padding-right:5%;
+    padding-top: 25px;
+    /* padding-bottom: 25px; */
+     /* instead of 4 padding use  */
+    /* padding:25px 5%;  */
+    display: flex;
+    align-items: center;
+ }
+
+ .details
+ {
+    width:70%;
+    background-color:#ededed;
+    font-family:'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 12px;
+   
+ }
+
+ .t1
+ {
+    font-size: 40px;
+ }
+
+ .t2
+ {
+   
+   font-size: 45px;
+   font-weight:700 ;
+   color:rgb(6, 177, 245);
+ }
+
+
+ .desc
+ {
+    font-size: 28px;
+ }
+
+ .cta
+ {
+    padding:16px 40px;
+    font-size: 20px;
+    margin-top: 35px;
+    color: whitesmoke;
+    background-color:rgb(6, 177, 245) ;
+    border:2px solid rgb(6, 177, 245);
+    border-radius: 10px;
+    cursor: pointer;
+    transition:.2s;
+ }
+
+ .cta:hover
+ {
+   background-color: transparent;
+   color: rgb(6, 177, 245);
+ }
+ .person
+ {
+    /* width: 30%; */
+     background-color: #ededed;
+     /* align-self: flex-end; */
+     border-radius: 30px;
+     padding: 30px;
+ }
+ person-img
+ {
+   height: 100px;
+ }
+ /* services css */
+
+ .services
+ {
+   width:100%;
+   /* background-color: red; */
+   padding:30px 5%;
+}
+
+.s-d
+{
+   font-size: 40px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 200;
+
+}
+
+.sid
+{
+   width:100%;
+   /* background-color:white; */
+   padding: 30px 0px;
+   margin-top: 30px;
+   display: flex;
+   column-gap: 4%;
+}
+
+.service
+{
+   width: 22%;
+   /* height:200px ; */
+   /* background-color: darkolivegreen; */
+   display:flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding: 20px;
+   font-family: 'Montserrat', sans-serif;
+   row-gap:12px;
+   box-shadow: 0 0 2px gray;
+   border-radius: 10px;
+}
+
+.service-text
+{
+   font-size: 15px;
+   font-family: 'Segoe UI';
+}
+
+.service-btn
+{
+   padding: 12px 25px;
+   background-color:rgb(6, 177, 245);
+   color: white;
+   border: none;
+   border-radius: 20px;
+ 
+}
+
+/* Achievements */
+
+.Achievements
+{
+  padding: 30px 10%;
+  background-color:#ededed;
+  font-family: 'Montserrat', sans-serif;
+  /* display: flex; */
+}
+
+.achievement
+{
+   width:16.5%;
+   /* height: 200px; */
+   padding: 50px;
+   /* background-color:#7e8589; */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   row-gap: 10px;
+}
+
+.achievements-child
+{
+    column-gap:4.35%;
+}
+
+.number
+{
+   font-size:40px;
+   font-weight: bold;
+}
+
+.tag
+{
+   font-size:17px;
+   text-transform: capitalize;
+}
+ 
+
+/* quote css */
+.quote
+{
+   width: 100%;
+   height: 350px;
+   /* padding: 0px 10%; */
+   /* background-color: red; */
+   background-image:url(https://images.pexels.com/photos/6476584/pexels-photo-6476584.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+   background-size: cover;
+   background-image: center;
+}
+
+.overlay
+{
+   height: 100%;
+   width: 100%;
+   background-color: rgba(0,0,0,.7);
+   padding: 30px 10%;
+   display: flex;
+   align-items: center;
+}
+
+.quote-area
+{
+   width: 100%;
+   /* background-color:white; */
+   padding: 30px 0px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+
+.inp-email
+{
+   width: 70%;
+   height: 50px;
+   border: 2px solid white;
+   font-size: 15px;
+   text-indent: 25px;
+   border-radius: 10px;
+   background-color: transparent;
+}
+
+::placeholder
+{
+   color: white;
+}

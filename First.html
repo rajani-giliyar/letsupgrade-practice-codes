@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!-- <br> and <img> are empty tags -->
+<!-- download the img and move it to html css file
+./ in link tag is itis in same folder,mentioning icon is very imp -->
+<html>
+<head>
+    <title>First webpage</title>
+    <link rel="icon" href="./tab-icon.jpg">
+    <link rel="stylesheet" href="./style.css">
+    <!-- the above link tag is used to link external css to html -->
+
+    <!-- in between head tag we use internal css.
+      to apply internal css we use style tag ,in between that we use selector .selector osused to select the element where we want to apply css in html tag .if there is so many para or prewe want to apply css for all of them at that time we can use internal css -->
+
+      <!-- if i have 10 paragraph.and i want to apply differnt css or color to them at that time we use class attribute in p tag it is a selector.we have to ways to select the element class and tags  -->
+        
+      <!-- selector 
+      *tags 
+      *class(its like a nick name.dot(.)for classes)in class its possible to give 2 names for classes
+      example  <p class="para1  ans" >and we can apply css for para 1 also and ans also.but more priority for which css come first.if  i write .ans{}is first it take ans css 
+      *id hash(#)for id
+       (cmpr to class and tags class have more priorities.if we give class and tag same properties it take class first.
+        cmpr to class and id .id has more priority then class)
+      
+          drawback of internal css is whenwe work on big project there is 1000of hrml tags and1000 of css at that it increases load time,page size increases -->
+
+    <!-- <style>
+/* if i wanted to apply css for whole web page at that time use tag(body) as a selectot
+      body
+      {
+        color:read; 
+      } */
+      pre
+      {
+        color:red; background-color:blue;
+        font-family: segoe ui;
+      }
+
+      .para2
+
+      {
+        color:bisque; background-color: black;
+
+      }
+
+      p
+      {
+        font-size: 30px;
+      }
+
+      #one
+      /*avoid using id in css because it cannot berepeated but class and tag can be repeated.but id not  */
+      {
+        background-color: gray;
+      }
+    </style>
+    -->
+</head>
+<body>
+    <!-- this is my first web page -->
+    <!-- hello
+    <h1>Letsupgrade</h1>
+    <h2>Letsupgrade</h2>
+    <h3>Letsupgrade</h3>
+    <h4>Letsupgrade</h4>
+    <h5>Letsupgrade</h5>
+    <h6>Letsupgrade</h6>
+    control slash to cmnt the code
+     -->
+
+     <!-- applying inline css on first para just use style then property and value 
+         INLINE CSS means ts write in tag itself-->
+
+     <p style="color:red;background-color:yellow;">
+     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ipsam corrupti, totam incidunt facere ad et consectetur? Rem modi cupiditate non reiciendis unde neque nesciunt odio, <br>quasi nisi quo cum.
+     Provident, dolorem enim atque sed esse cum, dignissimos, consectetur ducimus ipsa accusantium doloribus laudantium! Nesciunt cum quos porro fugit assumenda,<br> ad ea, delectus sit adipisci eius consequuntur totam, culpa dolores.
+     Fugit placeat distinctio et perspiciatis hic labore dolorem magnam expedita<br> sit veritatis atque voluptates, quisquam aspernatur inventore debitis. Rem velit unde aspernatur commodi fuga distinctio a beatae vel sequi tenetur?<br>
+     Dolor praesentium dicta officia animi nesciunt! Vel, ratione eveniet, tenetur voluptatem vero id non in velit reiciendis nobis ipsum. <br>Accusantium magni voluptatum at distinctio explicabo asperiores consectetur optio eius ut!
+     Voluptatem, magnam similique? Ratione iste ullam quam aperiam eveniet tempora molestias voluptatibus, delectus cumque possimus officia consequuntur veritatis id modi tenetur sed. In cum vero aliquam exercitationem voluptas esse ex.
+    </p>
+
+
+
+      <!--in class its possible to give 2 names for classes
+      example  <p class="para1  ans" >and we can apply css for para 1 also and ans also.but more priority for which css come first.if  i write .ans{}is first it take ans css -->
+    
+    <p class="para2" id="one">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A numquam, illum neque temporibus possimus minus exercitationem rerum ipsa provident ipsum aspernatur assumenda quo. Sed, cum est soluta hic magnam accusantium!
+    Earum, perferendis hic. Amet voluptatum fugit tenetur recusandae sunt. Doloribus corrupti eius commodi cum, inventore odio laborum ducimus facere voluptate pariatur dolores aliquid omnis molestias? Expedita facere ab earum? Ex?
+    Possimus nostrum laboriosam ratione aliquid obcaecati tempore doloremque, aperiam quidem quasi iure odit dicta reiciendis perspiciatis laudantium labore amet?<br> Perferendis doloremque doloribus soluta hic excepturi eligendi omnis enim in natus!
+    Eum aspernatur culpa repellat quo, accusamus esse quasi et corporis reiciendis, praesentium adipisci quaerat tenetur tempore ad eaque dolore,<br> ullam perspiciatis provident? Quaerat magni quidem fugiat perspiciatis maxime deleniti reprehenderit.
+    Dolor, officia? Doloribus odit at sapiente ad veritatis. Consectetur totam, asperiores iusto illo repellendus eveniet aut natus vero laborum non, sapiente deserunt quos repudiandae, provident error nostrum voluptatem mollitia quod!
+    </p>
+    <pre>
+        <!-- <pre means pre formated paragraph display the data exact in same formate> --> 
+        class Person:
+  def __init__(self, fname, lname):
+    self.firstname = fname
+    self.lastname = lname
+
+  def printname(self):
+    print(self.firstname, self.lastname)
+
+#Use the Person class to create an object, and then execute the printname method:
+
+x = Person("John", "Doe")
+x.printname()
+   </pre>
+    <!-- attributes are extra properties or extra features.that enhance the features of tags or add.some tag which need attribute to work and "href","src","height","width",(dont use height and width at a time use any one),"alt"(s alternativeif img is not loading then from alt we came to know which img it is,if link is wrong also) are an attribute -->
+    <!-- <tag attr="value" attr2="value" >content</tag> -->
+    <!-- <a></a> is anchor tag tells that it is a link...href is hyper link refference is attribute-->
+    <a href="http://www.google.com">Google</a>
+    <img height="200px" alt="thor img"src="https://akns-images.eonline.com/eol_images/Entire_Site/2017216/rs_634x952-170316094114-ThorRagnarok58c9d18ec0d49.jpg?fit=around%7C634:952&output-quality=90&crop=634:952;center,top">
+
+
+
+</body>    
+</html>
